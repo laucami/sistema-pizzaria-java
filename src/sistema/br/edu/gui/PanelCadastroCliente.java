@@ -178,12 +178,12 @@ public class PanelCadastroCliente extends JPanel {
 		add(btnAlterar1);
 
 		JLabel lblNewLabel = new JLabel("Id");
-		lblNewLabel.setBounds(344, 69, 46, 14);
+		lblNewLabel.setBounds(322, 64, 46, 14);
 		add(lblNewLabel);
 
 		txfId = new JTextField();
 		txfId.setEditable(false);
-		txfId.setBounds(400, 63, 86, 20);
+		txfId.setBounds(378, 62, 86, 20);
 		add(txfId);
 		txfId.setColumns(10);
 
